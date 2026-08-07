@@ -1,0 +1,2 @@
+import{aX as i,am as s,Z as c,L as u}from"./index-kdGA-5gm.js";const m=i("crm-organizations",()=>{let t=u({});const a=s(),n=c({url:"crm.api.session.get_organizations",cache:"organizations",initialData:[],auto:!0,transform(o){for(let r of o)t[r.name]=r;return o},onError(o){o&&o.exc_type==="AuthenticationError"&&a.push("/login")}});function e(o){return t[o]}return{organizations:n,getOrganization:e}});export{m as o};
+//# sourceMappingURL=organizations-CRWypTzY.js.map
